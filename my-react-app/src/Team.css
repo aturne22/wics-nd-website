@@ -1,0 +1,51 @@
+.boardTitle{
+    text-align: center;
+    font-size: 20px;
+}
+.board{
+    padding-top: 200px;
+    color: #6E43C8;
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* four equal columns */
+    gap: 100px;
+    text-align: center;
+  }
+ 
+.boardPicture{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.boardPicture img {
+    width: 300px; /* Set desired width */
+    height: 400px; /* Set desired height */
+    object-fit: cover; /* Ensures the image covers the set dimensions */
+    border-radius: 50%;
+}
+
+.boardName{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 25px;
+    color: #6E43C8;
+    text-align: center;
+    padding-top: None;
+}
+
+.position{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,24 @@
+/* Define the keyframes for the fade-in effect */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: slide up effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Initial state before the animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px); /* Match the initial state in keyframes */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* Final state to trigger the animation */
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }

@@ -16,7 +16,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
-  gap: 136gyb54tv66px;
+  gap: 136px;
   padding: 20px;
 }
 

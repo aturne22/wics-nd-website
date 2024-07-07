@@ -1,1 +1,55 @@
+.image-container2 {
+    display: inline-block;
+    position: relative;
+}
+  
+.image-container2::after {
+    content: '';
+    position: absolute;
+    top: 15px; /* Adjust as needed */
+    left: 15px; /* Adjust as needed */
+    right: -15px; /* Adjust as needed */
+    bottom: -15px; /* Adjust as needed */
+    border: 5px solid #6E43C8; /* Adjust the border size and color as needed */
+    z-index: -1;
+}
+  
+.image-container2 img {
+    display: block;
+    width: 580px;
+}
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 30px;
+    padding: 20px;
+}
+  /* Grid Items */
+.grid-item4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 200px;
+    padding-right: 90px;
+  }
+  
+  .grid-item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 90px;
+    padding-top:  110px;
+  }
+
+  #titleAbout {
+    font-size: 50px;
+    color: #6E43C8;
+  }
+
+  .aboutDescrip{
+    font-size: 24.5px;
+  }
+  

@@ -32,7 +32,7 @@ const About = () => {
       </div> 
       <div className="grid-container">
         <div className="grid-item1">
-            <div className="image-container2">
+            <div className="image-container3">
                 <img src={mouse} className="picture2" alt="Mouse Graphic" />
             </div>
         </div>
@@ -50,6 +50,7 @@ const About = () => {
                         </p>
                     </div>
             </div> 
+        
         </div>
         <div className="footer">
     @ 2024 University of Notre Dame Women in CS

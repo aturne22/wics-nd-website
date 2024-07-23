@@ -90,6 +90,8 @@
   z-index: -1;
 }
 
+
+
 .image-container img {
   display: block;
   width: 680px;
@@ -129,7 +131,7 @@ main {
 .title3{
   text-align: center;
   font-size: 25px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   
 }
 .footer{
@@ -179,6 +181,31 @@ main {
   background-color: #6E43C8; /* Change to desired hover background color */
   color: #ffffff; /* Change to desired hover text color */
 }
+
+.instagram-feed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.instagram-post {
+  position: relative;
+  padding-bottom: 100%; /* Makes the div a square */
+  overflow: hidden;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.instagram-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the square */
+}
+
 
 @tailwind base;
 @tailwind components;

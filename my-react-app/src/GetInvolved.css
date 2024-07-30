@@ -1,24 +1,137 @@
-/* Define the keyframes for the fade-in effect */
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px); /* Optional: slide up effect */
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+/*
+
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  flex: 1; 
+}
+
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center; 
+}
+
+
+#titleGet {
+  font-size: 50px;
+  color: #6E43C8;
+  margin: 0; 
+  padding-left: 80px;
+}
+
+
+.getDescrip {
+  font-size: 24px; 
+  margin: 0; 
+  padding-left: 80px;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #6E43C8;
+  border-top: 1px solid #ddd;
+}
+
+.googleform{
+  padding-top: 250px;
+}
+*/
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  flex: 1; 
+}
+
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+
+#titleGet {
+  font-size: 50px;
+  color: #6E43C8;
+  margin: 0; 
+  padding-left: 80px;
+}
+
+
+.getDescrip {
+  font-size: 24px;
+  margin: 0; 
+  padding-left: 80px;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #6E43C8;
+  border-top: 1px solid #ddd;
+}
+
+.googleform {
+  padding-top: 250px;
+}
+
+
+@media (max-width: 850px) {
+  .grid-container {
+    grid-template-columns: 1fr;
   }
-  
-  /* Initial state before the animation */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20px); /* Match the initial state in keyframes */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+
+  #titleGet {
+    font-size: 36px;
+    padding-left: 20px;
+    padding-top:150px;
   }
-  
-  /* Final state to trigger the animation */
-  .fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
+
+  .getDescrip {
+    font-size: 18px;
+    padding-left: 20px;
   }
+
+  .googleform {
+    padding-top: 50px;
+  }
+}

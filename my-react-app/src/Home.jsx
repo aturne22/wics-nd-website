@@ -291,6 +291,7 @@ const Home = () => {
 
 export default Home;
 */
+
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import wicsLogo from './assets/wicsLogo.png';
@@ -367,7 +368,7 @@ const Home = () => {
             <blockquote className="instagram-media" data-instgrm-permalink={url} data-instgrm-version="14">
               <div style={{ padding: '16px' }}>
                 <a href={url} style={{ background: '#FFFFFF', lineHeight: '0', padding: '0 0', textAlign: 'center', textDecoration: 'none', width: '100%' }} target="_blank" rel="noopener noreferrer">
-                  {/* Placeholder and icons are removed */}
+                  
                 </a>
               </div>
             </blockquote>

@@ -1,4 +1,4 @@
-
+/*
   
   .events-container {
     width: 100%;
@@ -54,7 +54,7 @@
 
   }
   
-  /* Ensure dots are displayed properly */
+
   .slick-dots {
     bottom: 50px;
     padding-bottom: 60px;
@@ -64,4 +64,87 @@
     font-size: 20px;
     color:  #6E43C8;
   }
-  
+  */
+
+  /* General styling for the events container */
+.events-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.events-title {
+  font-size: 3em;
+  color: #6E43C8;
+  margin-bottom: 40px;
+  padding-top: 180px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.event-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.event-card h2 {
+  color: #6E43C8;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.footer {
+  width: 100%;
+  background-color: #6E43C8;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .events-title {
+    font-size: 2em;
+  }
+
+  .event-card h2 {
+    font-size: 1.2em;
+  }
+
+  .event-card p {
+    font-size: 0.9em;
+  }
+}
